@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Library | Jason's Corner</title>
+  <style>
+    body {
+      margin: 0;
+      background: #f3f6fa;
+      color: #34465a;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+    header {
+      background: #244a70;
+      color: white;
+      padding: 24px;
+    }
+    header h1 { margin: 0 0 12px; }
+    nav a {
+      color: white;
+      margin-right: 20px;
+      text-decoration: none;
+    }
+    main {
+      max-width: 850px;
+      margin: 35px auto;
+      padding: 0 20px;
+    }
+    .resource {
+      background: white;
+      border: 1px solid #d3dfeb;
+      border-radius: 10px;
+      padding: 24px;
+    }
+    .button {
+      display: inline-block;
+      background: #244a70;
+      color: white;
+      padding: 12px 22px;
+      border-radius: 6px;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Jason's Corner</h1>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/games/index.html">Games</a>
+      <a href="/library/index.html">Library</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Library</h2>
+    <p>Books, biblical texts, and educational resources.</p>
+
+    <section class="resource">
+      <h2>The Septuagint</h2>
+      <p>
+        Read the English translation of the Septuagint
+        by Sir Lancelot C. L. Brenton (1851).
+        This public-domain translation is available
+        to read freely here at Jason's Corner.
+      </p>
+      <a class="button" href="/library/septuagint/index.htm">
+        Read the Septuagint
+      </a>
+    </section>
+  </main>
+</body>
+</html>
